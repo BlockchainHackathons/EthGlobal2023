@@ -19,3 +19,7 @@ The entry point is when a user wants to swap two coins through our Poseidon Swap
 Secondly, we deploy a Programmable Token Transfer (PTT) contract on every supported chain (at least two chains) from which we will be able to “bridge” tokens back and forth. These contracts call the CCIP routers on each side of the chain. Thus on the sending chain, we have a PTT contract that call the send function of the router. On the other side, on the receiver chain PTT, we have a function that waits for a call to its receive function.
 
 Finally, upon call of the receiver PTT listening function, this function triggers a swap that uses the 1Inch aggregator on the receiving chain. The swapped token is then sent back to the source chain using a CCTP send function call from the destination chain PTT.
+
+<img width="1216" alt="Capture d’écran 2023-07-26 à 06 47 47" src="https://github.com/BlockchainHackathons/EthGlobal2023/assets/83420479/4ad53361-5671-482c-a5d8-51b1e3b12072">
+
+
