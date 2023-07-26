@@ -22,4 +22,6 @@ Finally, upon call of the receiver PTT listening function, this function trigger
 
 <img width="1216" alt="Capture d’écran 2023-07-26 à 06 47 47" src="https://github.com/BlockchainHackathons/EthGlobal2023/assets/83420479/4ad53361-5671-482c-a5d8-51b1e3b12072">
 
+demo : https://youtu.be/pJRJSQUpH8M
+
 
